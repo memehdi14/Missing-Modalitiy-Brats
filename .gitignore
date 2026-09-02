@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE and Editor settings
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Datasets and large files
+BraTS2021/
+dataset/
+data/
+*.nii
+*.nii.gz
+eval_log.txt
+
+# Anaconda
+anaconda_projects/
